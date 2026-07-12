@@ -6,6 +6,7 @@ import { Process } from '../components/admissions/Process';
 import { Fees } from '../components/admissions/Fees';
 import { Requirements } from '../components/admissions/Requirements';
 import { FAQ } from '../components/admissions/FAQ';
+import { ApplicationForm } from '../components/admissions/ApplicationForm';
 import { AdmissionsCTA } from '../components/AdmissionsCTA';
 export function Admissions() {
   return (
@@ -17,6 +18,7 @@ export function Admissions() {
         <Fees />
         <Requirements />
         <FAQ />
+        <ApplicationForm />
         <AdmissionsCTA />
       </main>
       <Footer />
