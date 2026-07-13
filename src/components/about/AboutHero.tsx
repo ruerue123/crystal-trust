@@ -51,9 +51,10 @@ export function AboutHero() {
             className="relative aspect-[4/3] rounded-2xl overflow-hidden">
             
             <img
-              src="/images/students1.jpg"
-              alt="Students walking on campus"
-              className="w-full h-full object-cover" />
+              src="/images/whole-school.jpg"
+              alt="The whole Crystal Trust School under the school and national flags"
+              className="w-full h-full object-cover"
+              onError={(e) => {e.currentTarget.src = '/images/students1.jpg';}} />
             
             <div className="absolute inset-0 bg-forestGreen/10 mix-blend-multiply" />
           </motion.div>

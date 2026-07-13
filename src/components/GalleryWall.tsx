@@ -16,59 +16,59 @@ type Photo = {
 // used as an onError fallback so the wall never breaks if a file is missing.
 const photos: Photo[] = [
 {
-  src: '/images/class.jpg',
-  fallback: '/images/class1.jpg',
-  caption: 'Hands up — curiosity in the classroom',
+  src: '/images/in-class.jpg',
+  fallback: '/images/class.jpg',
+  caption: 'Curiosity and joy in the classroom',
   category: 'Learning',
   span: 'tall'
 },
 {
-  src: '/images/swimming.jpg',
-  fallback: '/images/swimming3.jpg',
-  caption: 'Learning to swim in our own pool',
-  category: 'Swimming',
+  src: '/images/in-class-2.jpg',
+  fallback: '/images/choir.jpg',
+  caption: 'Our youngest learners singing together',
+  category: 'Early Years',
   span: 'wide'
 },
 {
-  src: '/images/choir.jpg',
-  fallback: '/images/choir2.jpg',
-  caption: 'Our choir at the school concert',
-  category: 'Arts',
+  src: '/images/ict_tablets.jpg',
+  fallback: '/images/ict.jpg',
+  caption: 'Building digital skills from the start',
+  category: 'Learning',
   span: 'normal'
 },
 {
-  src: '/images/students1.jpg',
-  fallback: '/images/students2.jpg',
+  src: '/images/student-group.jpg',
+  fallback: '/images/students1.jpg',
   caption: 'Smart and proud in our uniform',
   category: 'Our School',
   span: 'normal'
 },
 {
-  src: '/images/ict.jpg',
-  fallback: '/images/students3.jpg',
-  caption: 'Building digital skills in ICT',
-  category: 'Learning',
+  src: '/images/playarea.jpg',
+  fallback: '/images/students4.jpg',
+  caption: 'Play and laughter on the playground',
+  category: 'Play',
   span: 'tall'
 },
 {
-  src: '/images/trip.jpg',
-  fallback: '/images/students4.jpg',
-  caption: 'Adventures beyond the classroom',
-  category: 'Trips',
+  src: '/images/whole-school.jpg',
+  fallback: '/images/school.jpg',
+  caption: 'Our whole school family',
+  category: 'Our School',
   span: 'wide'
 },
 {
-  src: '/images/students5.jpg',
-  fallback: '/images/students6.jpg',
-  caption: 'Our youngest learners in ECD',
-  category: 'Early Years',
+  src: '/images/students-in-class.jpg',
+  fallback: '/images/students5.jpg',
+  caption: 'Focused and eager to learn',
+  category: 'Learning',
   span: 'normal'
 },
 {
-  src: '/images/sports1.jpg',
-  fallback: '/images/sports3.jpg',
-  caption: 'Sport and play on the field',
-  category: 'Sport',
+  src: '/images/student-female.jpg',
+  fallback: '/images/food.jpg',
+  caption: 'A warm meal shared together',
+  category: 'School Life',
   span: 'normal'
 }];
 

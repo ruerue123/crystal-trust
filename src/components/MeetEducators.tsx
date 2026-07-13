@@ -1,34 +1,34 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-// TODO: replace with real staff names, roles and photos. The roles and words
-// below are placeholders that reflect a small Christian primary school.
+// Real Crystal Trust School staff photos. Names are shown by role for now —
+// TODO: replace the role-based titles with real staff names when available.
 const educators = [
 {
-  name: 'Our Early Years Team',
-  role: 'Early Childhood Development',
-  qual: 'Qualified ECD practitioners',
+  name: 'Our Head of School',
+  role: 'School Leadership',
+  qual: 'Leading Crystal Trust School',
   philosophy:
-  'Every child is unique. Our role is to give them a warm, safe space to discover their brilliance in their very first years of school.',
+  'Every child who walks through our gates is known, loved and called to flourish — academically, morally and spiritually.',
   image:
-  '/images/staff-group.jpg'
+  '/images/headmaster-3.jpg'
 },
 {
-  name: 'Our Primary Teachers',
-  role: 'Junior & Senior Primary',
-  qual: 'Qualified primary educators',
+  name: 'Our Teaching Team',
+  role: 'ECD to Grade 7',
+  qual: 'Qualified, dedicated educators',
   philosophy:
   'Learning grows from curiosity. We encourage children to take academic risks, ask questions, and learn from their mistakes.',
   image:
-  '/images/class.jpg'
+  '/images/teacher-1.jpg'
 },
 {
-  name: 'Our Support Staff',
-  role: 'Pastoral & Co-curricular',
-  qual: 'A caring, dedicated team',
+  name: 'Our Whole Staff',
+  role: 'A Christian Family',
+  qual: 'Teaching & support staff',
   philosophy:
   'Beyond the classroom, we nurture confidence, character and faith so every learner feels known and valued.',
   image:
-  '/images/head-speaking2.jpg'
+  '/images/school-teachers.jpg'
 }];
 
 export function MeetEducators() {

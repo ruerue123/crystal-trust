@@ -30,10 +30,10 @@ export function HeadsWelcome() {
             className="lg:col-span-5 relative mb-8 lg:mb-0">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <img
-                src="/images/head-speaking.jpg"
+                src="/images/headmaster-3.jpg"
                 alt="The Head of Crystal Trust School"
-                className="w-full h-full object-cover"
-                onError={(e) => {e.currentTarget.src = '/images/head-speaking2.jpg';}} />
+                className="w-full h-full object-cover object-top"
+                onError={(e) => {e.currentTarget.src = '/images/head-speaking.jpg';}} />
               <div className="absolute inset-0 bg-forestGreen/10 mix-blend-multiply" />
             </div>
             {/* Floating accent card */}

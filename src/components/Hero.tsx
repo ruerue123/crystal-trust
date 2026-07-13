@@ -66,10 +66,10 @@ export function Hero() {
         
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/40 via-charcoal/20 to-forestGreen/70 z-10" />
         <img
-          src="/images/choir.jpg"
+          src="/images/in-class-2.jpg"
           alt="Crystal Trust School pupils"
           className="w-full h-full object-cover object-center"
-          onError={(e) => {e.currentTarget.src = '/images/trip.jpg';}} />
+          onError={(e) => {e.currentTarget.src = '/images/choir.jpg';}} />
         
       </motion.div>
 
