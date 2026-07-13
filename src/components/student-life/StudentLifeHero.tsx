@@ -49,9 +49,10 @@ export function StudentLifeHero() {
             className="relative aspect-[4/3] rounded-2xl overflow-hidden">
             
             <img
-              src="/images/sports1.jpg"
+              src="/images/sports-7.jpg"
               alt="Students participating in sports"
-              className="w-full h-full object-cover" />
+              className="w-full h-full object-cover"
+              onError={(e) => {e.currentTarget.src = '/images/sports1.jpg';}} />
             
           </motion.div>
         </div>

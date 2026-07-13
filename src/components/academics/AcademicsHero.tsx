@@ -49,9 +49,10 @@ export function AcademicsHero() {
           className="aspect-[21/9] rounded-3xl overflow-hidden relative shadow-2xl">
           
           <img
-            src="/images/class.jpg"
+            src="/images/students-in-class.jpg"
             alt="Students in a modern classroom"
-            className="w-full h-full object-cover" />
+            className="w-full h-full object-cover"
+            onError={(e) => {e.currentTarget.src = '/images/class.jpg';}} />
           
         </motion.div>
       </div>

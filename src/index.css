@@ -9,6 +9,27 @@
 
 /* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
 
+/* The Fraunces serif renders a stylised ligature-style ampersand that the
+   school didn't like. These @font-face rules remap ONLY the ampersand
+   codepoint (U+0026) to a plain sans-serif for both the serif and sans
+   families, so every "&" across the site renders as a normal ampersand while
+   all other characters keep their intended font — no markup changes needed.
+   Sourced from system sans-serif fonts so it never depends on a network font. */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 300 600;
+  src: local('Arial'), local('Helvetica'), local('Liberation Sans'), local('Segoe UI'), local('Roboto');
+  unicode-range: U+0026;
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 300 400;
+  src: local('Arial'), local('Helvetica'), local('Liberation Sans'), local('Segoe UI'), local('Roboto');
+  unicode-range: U+0026;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;

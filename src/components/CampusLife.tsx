@@ -8,7 +8,7 @@ const articles = [
   title: 'Celebrating our learners’ progress this term',
   date: 'Sample story',
   image:
-  '/images/class1.jpg',
+  '/images/graduation.jpg',
   featured: true
 },
 {
@@ -16,21 +16,21 @@ const articles = [
   title: 'A great turnout at our inter-house sports day',
   date: 'Sample story',
   image:
-  '/images/sports1.jpg'
+  '/images/sports-12.jpg'
 },
 {
   category: 'Community',
   title: 'Grade 6 learners lead a local clean-up',
   date: 'Sample story',
   image:
-  '/images/trip.jpg'
+  '/images/playarea.jpg'
 },
 {
   category: 'School Culture',
   title: 'Our annual concert showcases real talent',
   date: 'Sample story',
   image:
-  '/images/choir.jpg'
+  '/images/in-class-2.jpg'
 }];
 
 export function CampusLife() {

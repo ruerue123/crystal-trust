@@ -8,7 +8,7 @@ const learners = [
   name: 'Tinashe M.',
   grade: 'Grade 6',
   image:
-  '/images/student7.jpg'
+  '/images/in-class.jpg'
 },
 {
   quote:
@@ -16,7 +16,7 @@ const learners = [
   name: 'Chipo N.',
   grade: 'Grade 4',
   image:
-  '/images/students2.jpg'
+  '/images/student-female.jpg'
 }];
 
 export function MeetLearners() {

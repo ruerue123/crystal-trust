@@ -5,36 +5,36 @@ const schedule = [
   time: '07:30',
   title: 'Morning Arrival',
   desc: 'Warm greetings and settling into the day on our campus.',
-  img: '/images/students.jpg',
-  fallback: '/images/students1.jpg'
+  img: '/images/student-group.jpg',
+  fallback: '/images/students.jpg'
 },
 {
   time: '08:00',
   title: 'Assembly & Devotion',
   desc: 'Starting the day with prayer, worship, and shared values.',
-  img: '/images/choir.jpg',
-  fallback: '/images/choir2.jpg'
+  img: '/images/in-class-2.jpg',
+  fallback: '/images/choir.jpg'
 },
 {
   time: '08:45',
   title: 'Core Academics',
   desc: 'Focused learning in Mathematics and Literacy.',
-  img: '/images/class.jpg',
-  fallback: '/images/class1.jpg'
+  img: '/images/students-in-class.jpg',
+  fallback: '/images/class.jpg'
 },
 {
   time: '11:00',
   title: 'Computers & ICT',
   desc: 'Building practical digital skills in our computer lab.',
-  img: '/images/ict.jpg',
-  fallback: '/images/students6.jpg'
+  img: '/images/ict_tablets.jpg',
+  fallback: '/images/ict.jpg'
 },
 {
   time: '13:30',
   title: 'Swimming & Sport',
   desc: 'Swimming lessons in our pool, games and clubs.',
-  img: '/images/swimming.jpg',
-  fallback: '/images/swimming2.jpg'
+  img: '/images/swimming-seniors.jpg',
+  fallback: '/images/swimming.jpg'
 }];
 
 export function DayAtCrystalTrust() {

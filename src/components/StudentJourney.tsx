@@ -6,7 +6,7 @@ const stages = [
   title: 'Early Childhood',
   subtitle: 'Ages 3-5',
   image:
-  '/images/students.jpg',
+  '/images/ict_tablets.jpg',
   goals:
   'Fostering curiosity and a love for learning through play-based exploration.',
   skills: [
@@ -21,7 +21,7 @@ const stages = [
   title: 'Junior Primary',
   subtitle: 'Grades 1-3',
   image:
-  '/images/class1.jpg',
+  '/images/in-class.jpg',
   goals:
   'Building strong foundational knowledge while nurturing individual talents.',
   skills: ['Reading Fluency', 'Mathematical Concepts', 'Critical Thinking'],
@@ -32,7 +32,7 @@ const stages = [
   title: 'Senior Primary',
   subtitle: 'Grades 4-7',
   image:
-  '/images/students4.jpg',
+  '/images/students-in-class.jpg',
   goals:
   'Preparing confident, independent learners ready for high school challenges.',
   skills: ['Advanced Problem Solving', 'Leadership', 'Digital Literacy'],
@@ -47,7 +47,7 @@ const stages = [
   title: 'Future Success',
   subtitle: 'Beyond Grade 7',
   image:
-  '/images/students5.jpg',
+  '/images/graduation.jpg',
   goals:
   'Graduates who are academically excellent, morally grounded, and globally aware.',
   skills: ['Resilience', 'Ethical Decision Making', 'Lifelong Learning'],

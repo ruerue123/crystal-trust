@@ -24,9 +24,9 @@ export function Leadership() {
             
             <div className="aspect-[3/4] rounded-2xl overflow-hidden relative">
               <img
-                src="/images/headmaster-3.jpg"
+                src="/images/head-speaking.jpg"
                 alt="Crystal Trust School leadership"
-                onError={(e) => {e.currentTarget.src = '/images/head-speaking.jpg';}}
+                onError={(e) => {e.currentTarget.src = '/images/head-speaking2.jpg';}}
                 className="w-full h-full object-cover object-top" />
 
               <div className="absolute inset-0 bg-forestGreen/10 mix-blend-multiply" />

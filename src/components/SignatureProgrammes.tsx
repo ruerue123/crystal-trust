@@ -4,30 +4,30 @@ import { ArrowRight } from 'lucide-react';
 const programmes = [
 {
   title: 'Swimming',
-  image: '/images/swimming.jpg',
+  image: '/images/swimming-pool.jpg',
   fallback:
-  '/images/swimming2.jpg',
+  '/images/swimming.jpg',
   desc: 'Learn-to-swim lessons in our own school pool, building water confidence from an early age.'
 },
 {
   title: 'Christian Formation',
-  image: '/images/choir.jpg',
+  image: '/images/in-class-2.jpg',
   fallback:
-  '/images/choir2.jpg',
+  '/images/choir.jpg',
   desc: 'Daily devotions, biblical values, and character building at the heart of school life.'
 },
 {
   title: 'Sport & Play',
-  image: '/images/sports1.jpg',
+  image: '/images/sports-7.jpg',
   fallback:
-  '/images/sports3.jpg',
+  '/images/sports1.jpg',
   desc: 'Physical education and team games that build fitness, confidence and friendship.'
 },
 {
   title: 'Creative Arts',
-  image: '/images/choir2.jpg',
+  image: '/images/ict_tablets.jpg',
   fallback:
-  '/images/choir.jpg',
+  '/images/choir2.jpg',
   desc: 'Music, drama, and choir nurturing creative expression in every child.'
 }];
 

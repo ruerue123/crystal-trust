@@ -17,7 +17,7 @@ const articles = [
   title: 'Celebrating our learners’ progress this term',
   date: 'Sample story',
   image:
-  '/images/class.jpg',
+  '/images/graduation.jpg',
   featured: true
 },
 {
@@ -26,7 +26,7 @@ const articles = [
   title: 'A great turnout at our inter-house sports day',
   date: 'Sample story',
   image:
-  '/images/sports3.jpg'
+  '/images/sports-12.jpg'
 },
 {
   id: 3,
@@ -34,7 +34,7 @@ const articles = [
   title: 'Grade 6 learners lead a local clean-up',
   date: 'Sample story',
   image:
-  '/images/trip.jpg'
+  '/images/playarea.jpg'
 },
 {
   id: 4,
@@ -42,7 +42,7 @@ const articles = [
   title: 'Our annual concert showcases real talent',
   date: 'Sample story',
   image:
-  '/images/choir.jpg'
+  '/images/in-class-2.jpg'
 },
 {
   id: 5,
@@ -50,7 +50,7 @@ const articles = [
   title: 'Easter chapel service brings our community together',
   date: 'Sample story',
   image:
-  '/images/choir2.jpg'
+  '/images/conference.jpg'
 },
 {
   id: 6,
@@ -58,7 +58,7 @@ const articles = [
   title: 'New reading corner opens in the library',
   date: 'Sample story',
   image:
-  '/images/students3.jpg'
+  '/images/students-in-class.jpg'
 }];
 
 export function NewsGrid() {

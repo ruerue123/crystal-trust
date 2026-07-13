@@ -10,7 +10,7 @@ const educators = [
   philosophy:
   'Every child who walks through our gates is known, loved and called to flourish — academically, morally and spiritually.',
   image:
-  '/images/headmaster-3.jpg'
+  '/images/head-speaking.jpg'
 },
 {
   name: 'Our Teaching Team',

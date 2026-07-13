@@ -7,45 +7,45 @@ const experiences = [
   title: 'Swimming',
   category: 'Aquatics',
   desc: 'Crystal Trust has its own swimming pool, where our learn-to-swim lessons build water confidence and a love of the water from an early age.',
-  image: '/images/swimming.jpg',
+  image: '/images/swimming-pool.jpg',
   fallback:
-  '/images/swimming4.jpg',
+  '/images/swimming.jpg',
   span: 'md:col-span-8'
 },
 {
   title: 'Sport & Play',
   category: 'Games & Athletics',
   desc: 'On the field we teach teamwork, resilience and sportsmanship, welcoming all abilities and building a lifelong love of being active.',
-  image: '/images/sports1.jpg',
+  image: '/images/sports-7.jpg',
   fallback:
-  '/images/sports3.jpg',
+  '/images/sports1.jpg',
   span: 'md:col-span-4'
 },
 {
   title: 'Creative Arts',
   category: 'Music & Choir',
   desc: 'The arts are part of our culture. Through choir and performance, children learn to express themselves confidently in front of our school family.',
-  image: '/images/choir.jpg',
+  image: '/images/in-class-2.jpg',
   fallback:
-  '/images/choir2.jpg',
+  '/images/choir.jpg',
   span: 'md:col-span-6'
 },
 {
   title: 'Computers & ICT',
   category: 'Digital Skills',
   desc: 'In our computer lab, learners build practical digital skills that prepare them for a connected world.',
-  image: '/images/ict.jpg',
+  image: '/images/ict_tablets.jpg',
   fallback:
-  '/images/students6.jpg',
+  '/images/ict.jpg',
   span: 'md:col-span-6'
 },
 {
   title: 'Educational Trips',
   category: 'Beyond the Classroom',
   desc: 'From trips like Nyati Eco Game Park, our learners explore the world beyond the gates and learn through real experiences.',
-  image: '/images/trip.jpg',
+  image: '/images/playarea.jpg',
   fallback:
-  '/images/students4.jpg',
+  '/images/trip.jpg',
   span: 'md:col-span-12'
 }];
 

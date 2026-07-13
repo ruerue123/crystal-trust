@@ -147,9 +147,10 @@ export function WhyCrystalTrust() {
             className="relative aspect-[4/5] rounded-2xl overflow-hidden">
             
             <img
-              src="/images/students2.jpg"
-              alt="Students collaborating"
-              className="w-full h-full object-cover" />
+              src="/images/in-class.jpg"
+              alt="A learner enjoying class at Crystal Trust"
+              className="w-full h-full object-cover"
+              onError={(e) => {e.currentTarget.src = '/images/students2.jpg';}} />
             
             <div className="absolute inset-0 bg-forestGreen/10 mix-blend-multiply" />
           </motion.div>
