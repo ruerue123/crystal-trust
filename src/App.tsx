@@ -37,7 +37,7 @@ function AnimatedRoutes() {
         <Route path="/academics" element={<PageFade><Academics /></PageFade>} />
         <Route path="/student-life" element={<PageFade><StudentLife /></PageFade>} />
         <Route path="/admissions" element={<PageFade><Admissions /></PageFade>} />
-        <Route path="/news" element={<PageFade><News /></PageFade>} />
+        <Route path="/gallery" element={<PageFade><News /></PageFade>} />
         <Route path="/contact" element={<PageFade><Contact /></PageFade>} />
       </Routes>
     </AnimatePresence>);

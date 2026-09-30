@@ -52,7 +52,7 @@ export function ContactForm() {
                       Phone
                     </h4>
                     <p className="text-charcoal/70">
-                      +263 779 851 408
+                      +263 78 515 5166
                     </p>
                   </div>
                 </li>

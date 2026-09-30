@@ -20,9 +20,9 @@ const links = [
 },
 {
   icon: Newspaper,
-  title: 'News & Stories',
-  desc: 'Latest updates',
-  to: '/news'
+  title: 'Gallery',
+  desc: 'Photo highlights',
+  to: '/gallery'
 },
 {
   icon: Trophy,

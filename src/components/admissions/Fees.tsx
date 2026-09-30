@@ -98,7 +98,7 @@ export function Fees() {
 
             admissions@crystaltrustschool.co.zw
           </a>{' '}
-          or call +263 779 851 408.
+          or call +263 78 515 5166.
         </p>
       </div>
     </section>);

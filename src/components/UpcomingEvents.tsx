@@ -3,28 +3,44 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Calendar, MapPin } from 'lucide-react';
 const events = [
 {
-  date: '15',
+  date: '24',
+  month: 'OCT',
+  title: 'Family Funday',
+  time: 'All Day',
+  location: 'Main Campus',
+  desc: 'A day of fun, games, and fellowship for the whole Crystal Trust family. Bring everyone along!'
+},
+{
+  date: '30',
+  month: 'OCT',
+  title: 'Pink October',
+  time: 'All Day',
+  location: 'Main Campus',
+  desc: 'Breast Cancer Awareness day with health teachings to educate and support our community.'
+},
+{
+  date: '14',
   month: 'NOV',
-  title: 'Open Day & Campus Tour',
+  title: 'Open Day',
   time: '09:00 - 12:00',
   location: 'Main Campus',
   desc: 'Experience the Crystal Trust difference. Meet our educators and see our classrooms and grounds.'
 },
 {
-  date: '28',
+  date: '27',
+  month: 'NOV',
+  title: 'ECD Graduation & Prize-Giving Day',
+  time: '10:00 - 13:00',
+  location: 'Main Hall',
+  desc: 'Celebrating the graduation of our ECD learners and the achievements of our pupils across the school.'
+},
+{
+  date: '30',
   month: 'NOV',
   title: 'End of Year Carol Service',
   time: '18:00 - 20:00',
   location: 'School Chapel',
   desc: 'Join us for an evening of worship, music, and celebration as we close the academic year.'
-},
-{
-  date: '05',
-  month: 'DEC',
-  title: 'Junior Primary Prize Giving',
-  time: '10:00 - 13:00',
-  location: 'Main Hall',
-  desc: 'Celebrating the academic and co-curricular achievements of our Grade 1-3 learners.'
 }];
 
 export function UpcomingEvents() {

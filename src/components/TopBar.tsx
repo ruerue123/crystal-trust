@@ -21,10 +21,10 @@ export function TopBar() {
             info@crystalschool.ac.zw
           </a>
           <a
-            href="tel:+263000000000"
+            href="tel:+263785155166"
             className="flex items-center gap-2 hover:text-sky transition-colors">
             <Phone className="w-3.5 h-3.5" />
-            +263 00 000 0000
+            +263 78 515 5166
           </a>
           <span className="hidden lg:flex items-center gap-2 text-white/70">
             <Clock className="w-3.5 h-3.5" />

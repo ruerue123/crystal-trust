@@ -21,8 +21,8 @@ const navLinks = [
   href: '/student-life'
 },
 {
-  name: 'News & Stories',
-  href: '/news'
+  name: 'Gallery',
+  href: '/gallery'
 },
 {
   name: 'Contact',
